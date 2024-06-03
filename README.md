@@ -1,7 +1,7 @@
 # Fourier123: One Image to High-Quality 3D Object Generation with Hybrid Fourier Score Distillation
 [Shuzhou Yang](https://ysz2022.github.io/), [Yu Wang](https://villa.jianzhang.tech/people/yu-wang-%E6%B1%AA%E7%8E%89/), [Haijie Li](https://villa.jianzhang.tech/people/haijie-li-%E6%9D%8E%E6%B5%B7%E6%9D%B0/), [Jiarui Meng](), [Xiandong Meng](), [Jian Zhang](https://jianzhang.tech/)
 
-[![arXiv](https://img.shields.io/badge/arXiv-<Paper>-<COLOR>.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-<Paper>-<COLOR>.svg)](https://arxiv.org/abs/2405.20669)
 [![Home Page](https://img.shields.io/badge/Project_Page-<Website>-blue.svg)](https://fourier1-to-3.github.io/)
 
 
