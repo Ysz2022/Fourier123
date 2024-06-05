@@ -6,7 +6,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-<Paper>-<COLOR>.svg)](https://arxiv.org/abs/2405.20669)
 [![Project Page](https://img.shields.io/badge/Project_Page-<Website>-blue.svg)](https://fourier1-to-3.github.io/)
 
-**Using both 2D and 3D diffusion models to generate 3D asset from a single image with hybrid fourier score distillation.**
+**TL;DR: Using both 2D and 3D diffusion models to generate 3D asset from a single image with hybrid fourier score distillation.**
 
 </div>
 
