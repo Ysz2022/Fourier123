@@ -1,0 +1,38 @@
+tqdm
+tyro
+rich
+ninja
+numpy
+pandas
+roma
+scipy
+scikit-learn
+matplotlib
+opencv-python
+imageio
+imageio-ffmpeg
+omegaconf
+
+einops
+plyfile
+pygltflib
+
+# for gui
+dearpygui
+
+# for stable-diffusion
+huggingface_hub
+diffusers
+accelerate
+transformers
+
+# for dmtet and mesh export
+xatlas
+trimesh
+PyMCubes
+pymeshlab
+
+rembg[gpu,cli]
+
+# gradio demo
+gradio
