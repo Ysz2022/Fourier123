@@ -11,7 +11,7 @@
 </div>
 
 
-## Install
+## 🔑 Install
 
 ```bash
 # Tested on: Ubuntu 20.04 with torch 2.1 & CUDA 11.8 on single RTX 3090 & 4090.
@@ -37,7 +37,7 @@ pip install git+https://github.com/ashawkey/kiuikit
 ```
 
 
-## Pretrained LGM
+## 🤖 Pretrained LGM
 
 Pretrained weight can be downloaded from [huggingface](https://huggingface.co/ashawkey/LGM).
 
@@ -52,7 +52,7 @@ For [MVDream](https://github.com/bytedance/MVDream), we use a [diffusers impleme
 Weights will be downloaded automatically.
 
 
-## Usage
+## 🚀 Usage
 
 ```bash
 ### preprocess
@@ -88,18 +88,18 @@ CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=data_tes
 CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=workspace_test/backpack load=logs/backpack_model.ply
 ```
 
-## Tips to get better results
+## 🤗 Tips to get better results
 1. Due to the distribution of the training data for LGM, Fourier123 is sensitive to the facing direction of input images. Orthographic front-facing images always lead to good reconstructions.
 2. If you get unsatisfactory results, regenerating again may have a good effect
 
 
-## Acknowledgement
+## 🤝 Acknowledgement
 We have intensively borrowed code from the following repositories. Many thanks to the authors for sharing their code.
 - [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian)
 - [LGM](https://github.com/3DTopia/LGM)
 
 
-## Citation
+## 📌 Citation
 
 If you find this code useful for your research, please use the following BibTeX entry.
 
