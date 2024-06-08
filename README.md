@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-# Tested on: Ubuntu 20.04 with torch 2.3 & CUDA 12.1 on single RTX 3090 & 4090.
+# Tested on: Ubuntu 20.04 with torch 2.1 & CUDA 11.8 on single RTX 3090 & 4090.
 conda create --name fourier123 python=3.10
 conda activate fourier123
 
