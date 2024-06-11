@@ -70,10 +70,10 @@ python process.py data
 python infer_lgm.py big --resume pretrained/model_fp16_fixrot.safetensors --workspace <workspace> --test_path <input_image>
 
 # Fourier123 finetuning
-CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=<input_image> save_path=<output_name> load=<workspace>/<lgm_output.ply>
+CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=<input_image> save_path=<output_name> load=<workspace>/<initialized_ply>
 
 # 3D Gaussian visualization
-CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=<workspace> load=logs/<output_name_model.ply>
+CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=<workspace> load=logs/<output_name>_model.ply
 ```
 
 Please check `./configs/image.yaml` for more options.
@@ -83,7 +83,7 @@ Please check `./configs/image.yaml` for more options.
 ```bash
 python infer_lgm.py big --resume pretrained/model_fp16_fixrot.safetensors --workspace workspace_test/backpack --test_path data_test/backpack_rgba.png
 
-CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=data_test/backpack_rgba.png save_path=backpack load=workspace_test/backpack/backpack_rgba.ply 
+CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=data_test/backpack_rgba.png save_path=backpack load=workspace_test/backpack/backpack_rgba.ply
 
 CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=workspace_test/backpack load=logs/backpack_model.ply
 ```
