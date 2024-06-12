@@ -74,6 +74,9 @@ CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=<input_i
 
 # 3D Gaussian visualization
 CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=<workspace> load=logs/<output_name>_model.ply
+
+# Extract glb mesh from ply
+python convert.py big --test_path <path to .ply file>
 ```
 
 Please check `./configs/image.yaml` for more options.
