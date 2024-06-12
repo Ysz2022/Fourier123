@@ -72,10 +72,10 @@ python infer_lgm.py big --resume pretrained/model_fp16_fixrot.safetensors --work
 # Fourier123 finetuning
 CUDA_VISIBLE_DEVICES=0 python main.py --config configs/image.yaml input=<input_image> save_path=<output_name> load=<workspace>/<initialized_ply>
 
-# 3D Gaussian visualization
+### 3D Gaussian visualization
 CUDA_VISIBLE_DEVICES=0 python see.py --config configs/image.yaml workspace=<workspace> load=logs/<output_name>_model.ply
 
-# Extract glb mesh from ply
+### Extract glb mesh from ply
 python convert.py big --test_path <path to .ply file>
 ```
 
