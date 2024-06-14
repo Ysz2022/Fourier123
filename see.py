@@ -17,7 +17,6 @@ import math
 from gs_renderer import Renderer, MiniCam
 import argparse
 from omegaconf import OmegaConf
-import imageio
 
 
 parser = argparse.ArgumentParser()
