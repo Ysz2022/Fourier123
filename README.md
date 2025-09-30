@@ -4,6 +4,7 @@
 [Shuzhou Yang](https://ysz2022.github.io/), [Yu Wang](https://villa.jianzhang.tech/people/yu-wang-%E6%B1%AA%E7%8E%89/), [Haijie Li](https://villa.jianzhang.tech/people/haijie-li-%E6%9D%8E%E6%B5%B7%E6%9D%B0/), [Jiarui Meng](https://scholar.google.com/citations?user=N_pRAVAAAAAJ&hl=zh-CN), [Yanmin Wu](https://scholar.google.com/citations?user=11sQNWwAAAAJ&hl=zh-CN&oi=ao), [Xiandong Meng](), [Jian Zhang](https://jianzhang.tech/)*.
 
 [![arXiv](https://img.shields.io/badge/arXiv-<Paper>-<COLOR>.svg)](https://arxiv.org/abs/2405.20669)
+[![Paper](http://img.shields.io/badge/Paper-Springer-FF6B6B.svg)](https://link.springer.com/article/10.1007/s44267-025-00089-8)
 [![Project Page](https://img.shields.io/badge/Project_Page-<Website>-blue.svg)](https://fourier1-to-3.github.io/)
 
 **TL;DR: Using both 2D and 3D diffusion models to generate 3D asset from a single image with hybrid fourier score distillation.**
