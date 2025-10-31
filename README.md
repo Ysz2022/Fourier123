@@ -108,10 +108,10 @@ We have intensively borrowed code from the following repositories. Many thanks t
 If you find this code useful for your research, please use the following BibTeX entry.
 
 ```bibtex
-@article{yang2024fourier123,
-  title={Fourier123: One Image to High-Quality 3D Object Generation with Hybrid Fourier Score Distillation},
-  author={Shuzhou Yang and Yu Wang and Haijie Li and Jiarui Meng and Xiandong Meng and Jian Zhang},
-  journal={arXiv preprint arXiv:2405.20669},
-  year={2024}
+@article{f123,
+	title        = {Hybrid Fourier score distillation for efficient one image to 3D object generation},
+	author       = {Shuzhou Yang and Yu Wang and Haijie Li and Jiarui Meng and Yanmin Wu and Xiandong Meng and Jian Zhang},
+	year         = {2025},
+	journal      = {Visual Intelligence (VI)}
 }
 ```
